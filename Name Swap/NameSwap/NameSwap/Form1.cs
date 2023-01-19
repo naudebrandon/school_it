@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * The name and surname are swaped. 
+ * This application swap them back in the right order
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

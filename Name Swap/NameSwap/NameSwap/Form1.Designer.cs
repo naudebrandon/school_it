@@ -63,6 +63,7 @@
             this.txtName1.Name = "txtName1";
             this.txtName1.Size = new System.Drawing.Size(137, 20);
             this.txtName1.TabIndex = 2;
+            this.txtName1.Text = "Moodley";
             // 
             // txtSurname2
             // 
@@ -77,6 +78,7 @@
             this.txtSurname1.Name = "txtSurname1";
             this.txtSurname1.Size = new System.Drawing.Size(137, 20);
             this.txtSurname1.TabIndex = 4;
+            this.txtSurname1.Text = "Shani";
             // 
             // txtName2
             // 
@@ -114,13 +116,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName1;
