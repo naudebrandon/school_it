@@ -93,6 +93,7 @@
             this.btnSwap.TabIndex = 6;
             this.btnSwap.Text = "Swap";
             this.btnSwap.UseVisualStyleBackColor = true;
+            this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
             // 
             // frmNameSwap
             // 

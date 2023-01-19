@@ -16,5 +16,13 @@ namespace NameSwap
         {
             InitializeComponent();
         }
+
+        private void btnSwap_Click(object sender, EventArgs e)
+        {
+
+            txtSurname2.Text = txtName1.Text;
+            txtName2.Text = txtSurname1.Text;
+
+        }
     }
 }
