@@ -34,16 +34,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.spnX1 = new System.Windows.Forms.NumericUpDown();
+            this.spnX2 = new System.Windows.Forms.NumericUpDown();
+            this.spnY2 = new System.Windows.Forms.NumericUpDown();
+            this.spnY1 = new System.Windows.Forms.NumericUpDown();
             this.lblAnswer = new System.Windows.Forms.Label();
             this.btnDetermine = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnX1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnX2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnY2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnY1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -101,33 +101,33 @@
             this.label6.Text = "Y2";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // numericUpDown1
+            // spnX1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(193, 47);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(84, 20);
-            this.numericUpDown1.TabIndex = 6;
+            this.spnX1.Location = new System.Drawing.Point(193, 47);
+            this.spnX1.Name = "spnX1";
+            this.spnX1.Size = new System.Drawing.Size(84, 20);
+            this.spnX1.TabIndex = 6;
             // 
-            // numericUpDown2
+            // spnX2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(307, 47);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(84, 20);
-            this.numericUpDown2.TabIndex = 7;
+            this.spnX2.Location = new System.Drawing.Point(307, 47);
+            this.spnX2.Name = "spnX2";
+            this.spnX2.Size = new System.Drawing.Size(84, 20);
+            this.spnX2.TabIndex = 7;
             // 
-            // numericUpDown3
+            // spnY2
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(307, 125);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(84, 20);
-            this.numericUpDown3.TabIndex = 9;
+            this.spnY2.Location = new System.Drawing.Point(307, 125);
+            this.spnY2.Name = "spnY2";
+            this.spnY2.Size = new System.Drawing.Size(84, 20);
+            this.spnY2.TabIndex = 9;
             // 
-            // numericUpDown4
+            // spnY1
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(193, 125);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(84, 20);
-            this.numericUpDown4.TabIndex = 8;
+            this.spnY1.Location = new System.Drawing.Point(193, 125);
+            this.spnY1.Name = "spnY1";
+            this.spnY1.Size = new System.Drawing.Size(84, 20);
+            this.spnY1.TabIndex = 8;
             // 
             // lblAnswer
             // 
@@ -153,10 +153,10 @@
             this.ClientSize = new System.Drawing.Size(478, 265);
             this.Controls.Add(this.btnDetermine);
             this.Controls.Add(this.lblAnswer);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.spnY2);
+            this.Controls.Add(this.spnY1);
+            this.Controls.Add(this.spnX2);
+            this.Controls.Add(this.spnX1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -165,10 +165,10 @@
             this.Controls.Add(this.label1);
             this.Name = "frmGradient";
             this.Text = "Determine Gradient";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnX1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnX2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnY2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spnY1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,10 +182,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown spnX1;
+        private System.Windows.Forms.NumericUpDown spnX2;
+        private System.Windows.Forms.NumericUpDown spnY2;
+        private System.Windows.Forms.NumericUpDown spnY1;
         private System.Windows.Forms.Label lblAnswer;
         private System.Windows.Forms.Button btnDetermine;
     }
