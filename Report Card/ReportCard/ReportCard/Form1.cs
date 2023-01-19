@@ -22,7 +22,7 @@ namespace ReportCard
             lblMark1.Text = edtMark1.Text;
             lblMark2.Text = edtMark2.Text;
 
-            lblAverage.Text = avg.ToString();
+            lblAverage.Text = avg.ToString(); // Average Calculated
 
         }
     }
