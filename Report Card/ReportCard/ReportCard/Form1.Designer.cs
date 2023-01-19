@@ -143,6 +143,7 @@
             this.btnGenerate.TabIndex = 9;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // edtMark2
             // 
